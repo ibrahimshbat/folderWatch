@@ -1,7 +1,9 @@
 import java.io.IOException;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-
+/*
+ * Class to demonstrate WatchDir class
+ */
 public class UseWarchFolder {
 
 	public static void main(String[] args) throws IOException {
