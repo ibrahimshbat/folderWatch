@@ -7,7 +7,9 @@ public class Folder {
 	private String name;
 	private String location;
 	
-	
+	public Folder() {
+		
+	}
 	public Folder(String name, String location) {
 		this.name = name;
 		this.location = location;

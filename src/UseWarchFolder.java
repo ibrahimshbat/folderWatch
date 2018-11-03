@@ -18,6 +18,7 @@ public class UseWarchFolder {
 //            recursive = true;
 //            dirArg++;
 //        }
+        Folder f = new Folder();
 
         // register directory and process its events
         Path dir = Paths.get("E://Test/");
