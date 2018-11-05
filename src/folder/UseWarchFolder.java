@@ -1,3 +1,4 @@
+package folder;
 import java.io.IOException;
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -19,7 +20,7 @@ public class UseWarchFolder {
 //            dirArg++;
 //        }
         Folder f = new Folder();
-
+        
         // register directory and process its events
         Path dir = Paths.get("E://Test/");
         WatchDir wd = new WatchDir(dir, recursive);

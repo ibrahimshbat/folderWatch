@@ -1,3 +1,4 @@
+package folder;
 
 /*
  * Class demonstrates Folder
